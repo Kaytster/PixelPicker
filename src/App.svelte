@@ -5,9 +5,14 @@
 <main>
   <h1>{message}</h1>
   <p>Your environment is now fully connected.</p>
+
+  <article id="titleCard">
+    <h1>This is a card!</h1>
+    <p>here is some placeholder text</p>
+  </article>
 </main>
 
-<style>
+<!-- <style>
   main {
     text-align: center;
     padding: 2em;
@@ -16,4 +21,4 @@
   h1 {
     color: #ff3e00;
   }
-</style>
+</style> -->
