@@ -3,22 +3,12 @@
 </script>
 
 <main>
-  <h1>{message}</h1>
-  <p>Your environment is now fully connected.</p>
+  <!-- <h1>{message}</h1>
+  <p>Your environment is now fully connected.</p> -->
 
-  <article id="titleCard">
-    <h1>This is a card!</h1>
-    <p>here is some placeholder text</p>
+  <article class="titleCard">
+    <h1>Welcome to PixelPicker!</h1>
+    <p>This webtool is designed to make identifying colours in an image easier.</p>
+    <p class="text-sm">To get started upload an image, and choose a colour.</p>
   </article>
 </main>
-
-<!-- <style>
-  main {
-    text-align: center;
-    padding: 2em;
-    font-family: sans-serif;
-  }
-  h1 {
-    color: #ff3e00;
-  }
-</style> -->

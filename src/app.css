@@ -1,3 +1,25 @@
-.titleCard {
-    
+:root {
+    --primary: #E74B1A; /* pico-orange-450 */
+    --secondary: #FF9500; /* pico-pumpkin-300 */
+    --pHover: #F56B3D; /* pico-orange-350 */
+    --sHover: #FFA23A; /* pico-pumpkin-250 */
+    --pSelected: #BD3C13; /* pico-orange-550 */
+    --sSelected: #D27A01; /* pico-pumpkin-400 */
+
+    --pText: white;
+    --sText: white;
+}
+
+.text-sm {
+    font-size: x-small;
+}
+
+.titleCard{
+    /* background-color: red; */
+    /* background-color: var(--pico-primary); */
+    background-color: var(--primary);
+    width: 500px;
+}
+.titleCard > h1, p {
+    color: var(--pText);
 }
