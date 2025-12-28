@@ -26,12 +26,35 @@
 
 .uploadCard {
     background-color: var(--primary);
+    height: 80px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.uploadCard > .row > p {
+  margin-bottom: 0; 
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+button {
+    background-color: var(--secondary);
+    border: none;
 }
 
 .grid {
     display: grid;
     grid-template-columns: max-content max-content;
     gap: 4rem;
+    color: var(--pText);
 }
 
 .grid > article {

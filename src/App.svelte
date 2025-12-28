@@ -14,16 +14,21 @@
 
   <br />
 
-  <article class="uploadCard">
-    <p>Select an image from your device</p>
-  </article>
+
+    <article class="uploadCard">
+      <div class="row">
+          <button>Upload Image</button>
+          <p>Select an image from your device</p>
+      </div>
+    </article>
+
 
   <br />
 
   <div class="container">
     <div class="grid">
-      <article class="picker">1</article>
-      <article class="image">2</article>
+      <article class="picker">Colour Picker</article>
+      <article class="image">Image</article>
     </div>
   </div>
 </main>
