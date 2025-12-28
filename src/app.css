@@ -60,9 +60,18 @@ button {
 .grid > article {
     background-color: var(--primary);
 }
-.grid > .picker {
+.grid > .pickerTitle {
     width: 300px;
 }
-.grid > .image {
+.grid > .imageTitle {
     width: 800px;
 }
+.grid > .picker  {
+    width: 300px;
+    background-color: var(--secondary);
+}
+.grid > .image  {
+    width: 300px;
+    background-color: var(--secondary);
+}
+

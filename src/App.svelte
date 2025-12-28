@@ -1,5 +1,7 @@
+
 <script lang="ts">
   let message: string = "PixelPicker is Ready";
+  import ColourPicker from "./lib/ColourPicker.svelte";
 </script>
 
 <main>
@@ -27,7 +29,11 @@
 
   <div class="container">
     <div class="grid">
-      <article class="picker">Colour Picker</article>
+      <article class="pickerTitle">Colour Picker</article>
+      <article class="imageTitle">Image</article>
+    </div>
+    <div class="grid">
+      <article class="picker"><ColourPicker /></article>
       <article class="image">Image</article>
     </div>
   </div>
