@@ -23,3 +23,23 @@
 .titleCard > h1, p {
     color: var(--pText);
 }
+
+.uploadCard {
+    background-color: var(--primary);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 4rem;
+}
+
+.grid > article {
+    background-color: var(--primary);
+}
+.grid > .picker {
+    width: 300px;
+}
+.grid > .image {
+    width: 800px;
+}
