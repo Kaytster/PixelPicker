@@ -5,6 +5,7 @@
     --sHover: #FFA23A; /* pico-pumpkin-250 */
     --pSelected: #BD3C13; /* pico-orange-550 */
     --sSelected: #D27A01; /* pico-pumpkin-400 */
+    --errorMessage: rgb(255, 240, 36);
 
     --pText: white;
     --sText: white;

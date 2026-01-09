@@ -67,11 +67,14 @@
     .help-box > h2 {
         margin: 0;
         font-size: 1.5rem;
-        color: red;
+        color: white;
+        margin-bottom: 15px;
     }
     .help-box > p {
-        color: green;
+        /* background-color: var(--primary); */
+        color: white;
         font-size: 0.9rem;
+
     }
 
     .eyedrop-btn {
@@ -79,7 +82,7 @@
         align-items: center;
         gap: 12px;
         padding: 16px 32px;
-        background-color: blue;
+        background-color: var(--primary);
         color: white;
         border: 2px solid transparent;
         border-radius: 12px;
@@ -88,16 +91,16 @@
         transition: all 0.2s ease;
     }
     .eyedrop-btn:hover {
-        background-color: aqua;
-        border-color: blue;
+        background-color: var(--pHover);
+        /* border-color: var(--primary); */
     }
     .eyedrop-btn:active {
         trasnform: scale(0.96);
     }
 
     .error-msg {
-        color: purple;
-        background-color: rgba(255, 0, 0, 0.1);
+        color: black;
+        background-color: var(--errorMessage);
         padding: 10px 15px;
         border-radius: 8px;
         font-size: 0.85rem;
@@ -116,7 +119,7 @@
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        border: 3px solid palevioletred;
+        border: 3px solid black;
         box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         transition: background-color 0.3s ease;
     }
