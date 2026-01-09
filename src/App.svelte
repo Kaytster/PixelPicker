@@ -33,7 +33,16 @@
       <article class="imageTitle">Image</article>
     </div>
     <div class="grid">
-      <article class="picker"><ColourPicker /></article>
+      <article class="picker">
+        <nav class="colourOptions">
+          <ul>
+            <li><button>Colour Picker</button></li>
+            <li><button>HEX Code</button></li>
+            <li><button>Colour Wheel</button></li>
+          </ul>
+        </nav>
+        <ColourPicker />
+      </article>
       <article class="image">Image</article>
     </div>
   </div>
