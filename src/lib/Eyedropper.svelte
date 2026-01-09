@@ -48,7 +48,7 @@
     {/if}
 
     <div class="preview">
-        <div class="swatch" style="background-color={colour}"></div>
+        <div class="swatch" style:background-color={colour}></div>
         <span class="hex-value">{colour}</span>
     </div>
 </div>
