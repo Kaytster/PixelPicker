@@ -35,15 +35,15 @@
     </div>
     <div class="grid">
       <article class="picker">
-        <!-- <nav class="colourOptions">
+        <nav class="colourOptions">
           <ul>
-            <li><button>Colour Picker</button></li>
+            <li><button>Eye Dropper</button></li>
             <li><button>HEX Code</button></li>
             <li><button>Colour Wheel</button></li>
           </ul>
-        </nav> -->
-        <!-- <ColourPicker /> -->
-        <Eyedropper />
+        </nav> 
+        <ColourPicker />
+        <!-- <Eyedropper /> -->
       </article>
       <article class="image">Image</article>
     </div>
