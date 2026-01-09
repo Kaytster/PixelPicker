@@ -2,6 +2,7 @@
 <script lang="ts">
   let message: string = "PixelPicker is Ready";
   import ColourPicker from "./lib/ColourPicker.svelte";
+  import Eyedropper from "./lib/Eyedropper.svelte";
 </script>
 
 <main>
@@ -34,14 +35,15 @@
     </div>
     <div class="grid">
       <article class="picker">
-        <nav class="colourOptions">
+        <!-- <nav class="colourOptions">
           <ul>
             <li><button>Colour Picker</button></li>
             <li><button>HEX Code</button></li>
             <li><button>Colour Wheel</button></li>
           </ul>
-        </nav>
-        <ColourPicker />
+        </nav> -->
+        <!-- <ColourPicker /> -->
+        <Eyedropper />
       </article>
       <article class="image">Image</article>
     </div>

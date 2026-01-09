@@ -29,7 +29,7 @@
 </script>
 
 <div class="tab-container">
-    <div class="instruction-box">
+    <div class="help-box">
         <h2>Eye Dropper</h2>
         <p>Use the eyedropper to pick any colour on screen, from the image or elsewhere in the browser window!</p>
     </div>
@@ -55,10 +55,76 @@
 
 <!-- Eyedropper Styling -->
 
-<!-- <style>
+<style>
     .tab-container {
         display: flex;
         flex-direction: column;
-
+        align-items: center;
+        padding: 30px;
+        gap: 20px;
     }
-</style> -->
+
+    .help-box > h2 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: red;
+    }
+    .help-box > p {
+        color: green;
+        font-size: 0.9rem;
+    }
+
+    .eyedrop-btn {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 16px 32px;
+        background-color: blue;
+        color: white;
+        border: 2px solid transparent;
+        border-radius: 12px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.2s ease;
+    }
+    .eyedrop-btn:hover {
+        background-color: aqua;
+        border-color: blue;
+    }
+    .eyedrop-btn:active {
+        trasnform: scale(0.96);
+    }
+
+    .error-msg {
+        color: purple;
+        background-color: rgba(255, 0, 0, 0.1);
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-size: 0.85rem;
+        border: 1px solid rgba(255, 0, 0, 0.2)
+    }
+
+    .preview {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .swatch {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 3px solid palevioletred;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        transition: background-color 0.3s ease;
+    }
+
+    .hex-value {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #ccc;
+    }
+</style>
