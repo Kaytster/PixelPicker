@@ -2,7 +2,7 @@
 <script lang="ts">
   let message: string = "PixelPicker is Ready";
   import ColourPicker from "./lib/ColourPicker.svelte";
-  import Eyedropper from "./lib/Eyedropper.svelte";
+  import Eyedropper from "./lib/EyeDropper.svelte";
 </script>
 
 <main>
