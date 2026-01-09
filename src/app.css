@@ -1,0 +1,87 @@
+:root {
+    --primary: #E74B1A; /* pico-orange-450 */
+    --secondary: #FF9500; /* pico-pumpkin-300 */
+    --pHover: #F56B3D; /* pico-orange-350 */
+    --sHover: #FFA23A; /* pico-pumpkin-250 */
+    --pSelected: #BD3C13; /* pico-orange-550 */
+    --sSelected: #D27A01; /* pico-pumpkin-400 */
+
+    --pText: white;
+    --sText: white;
+}
+
+.text-sm {
+    font-size: x-small;
+}
+
+.titleCard{
+    /* background-color: red; */
+    /* background-color: var(--pico-primary); */
+    background-color: var(--primary);
+    width: 500px;
+}
+.titleCard > h1, p {
+    color: var(--pText);
+}
+
+.uploadCard {
+    background-color: var(--primary);
+    height: 80px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.uploadCard > .row > p {
+  margin-bottom: 0; 
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+button {
+    background-color: var(--secondary);
+    border: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 4rem;
+    color: var(--pText);
+}
+
+.grid > article {
+    background-color: var(--primary);
+}
+.grid > .pickerTitle {
+    width: 300px;
+}
+.grid > .imageTitle {
+    width: 800px;
+}
+.grid > .picker  {
+    width: 300px;
+    background-color: var(--secondary);
+}
+.grid > .image  {
+    width: 300px;
+    background-color: var(--secondary);
+}
+
+.colourOptions > ul > li > button {
+    background-color: var(--primary);
+}
+.colourOptions > ul > li > button:hover {
+    background-color: var(--pHover);
+}
+.colourOptions > ul > li > button.is-selected {
+    background-color: var(--pSelected);
+}
+
