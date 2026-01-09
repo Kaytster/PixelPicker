@@ -35,13 +35,6 @@
     </div>
     <div class="grid">
       <article class="picker">
-        <nav class="colourOptions">
-          <ul>
-            <li><button>Eye Dropper</button></li>
-            <li><button>HEX Code</button></li>
-            <li><button>Colour Wheel</button></li>
-          </ul>
-        </nav> 
         <ColourPicker />
         <!-- <Eyedropper /> -->
       </article>

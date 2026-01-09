@@ -35,4 +35,15 @@
     {/if}
 </div>
 
-<style></style>
+<style>
+    
+.colourOptions > ul > li > button {
+    background-color: var(--primary);
+}
+.colourOptions > ul > li > button:hover {
+    background-color: var(--pHover);
+}
+.colourOptions > ul > li > button.is-selected {
+    background-color: var(--pSelected);
+}
+</style>
