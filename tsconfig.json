@@ -1,11 +1,16 @@
 {
-  "extends": "@sveltejs/vite-plugin-svelte/tsconfig.json",
   "compilerOptions": {
-    "moduleResolution": "bundler",
-    "module": "ESNext",
     "target": "ESNext",
-    "isolatedModules": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "useDefineForClassFields": true,
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "types": ["svelte", "vite/client"],
     "lib": ["ESNext", "DOM", "DOM.Iterable"]
   },
