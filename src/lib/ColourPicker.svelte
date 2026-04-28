@@ -1,7 +1,3 @@
-<!-- <main>
-    <p>Colour Picker goes here!</p>
-</main> -->
-
 <script lang="ts">
     import EyeDropper from "./EyeDropper.svelte";
     
@@ -36,14 +32,13 @@
 </div>
 
 <style>
-    
-.colourOptions > ul > li > button {
-    background-color: var(--primary);
-}
-.colourOptions > ul > li > button:hover {
-    background-color: var(--pHover);
-}
-.colourOptions > ul > li > button.is-selected {
-    background-color: var(--pSelected);
-}
+    .colourOptions > ul > li > button {
+        background-color: var(--primary);
+    }
+    .colourOptions > ul > li > button:hover {
+        background-color: var(--pHover);
+    }
+    .colourOptions > ul > li > button.is-selected {
+        background-color: var(--pSelected);
+    }
 </style>

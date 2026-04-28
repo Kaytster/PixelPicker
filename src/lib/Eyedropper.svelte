@@ -80,6 +80,8 @@
     .eyedrop-btn {
         display: flex;
         align-items: center;
+        justify-content: center;
+        text-align: center;
         gap: 12px;
         padding: 16px 32px;
         background-color: var(--primary);

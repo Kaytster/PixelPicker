@@ -62,18 +62,17 @@ button {
     background-color: var(--primary);
 }
 .grid > .pickerTitle {
-    width: 300px;
+    width: 350px;
 }
 .grid > .imageTitle {
     width: 800px;
 }
 .grid > .picker  {
-    width: 300px;
+    width: 350px;
     background-color: var(--secondary);
 }
 .grid > .image  {
     width: 300px;
     background-color: var(--secondary);
 }
-
 
