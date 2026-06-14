@@ -5,6 +5,7 @@
     --sHover: #FFA23A; /* pico-pumpkin-250 */
     --pSelected: #BD3C13; /* pico-orange-550 */
     --sSelected: #D27A01; /* pico-pumpkin-400 */
+    --errorMessage: rgb(255, 240, 36);
 
     --pText: white;
     --sText: white;
@@ -61,27 +62,17 @@ button {
     background-color: var(--primary);
 }
 .grid > .pickerTitle {
-    width: 300px;
+    width: 350px;
 }
 .grid > .imageTitle {
     width: 800px;
 }
 .grid > .picker  {
-    width: 300px;
+    width: 350px;
     background-color: var(--secondary);
 }
 .grid > .image  {
     width: 300px;
     background-color: var(--secondary);
-}
-
-.colourOptions > ul > li > button {
-    background-color: var(--primary);
-}
-.colourOptions > ul > li > button:hover {
-    background-color: var(--pHover);
-}
-.colourOptions > ul > li > button.is-selected {
-    background-color: var(--pSelected);
 }
 
