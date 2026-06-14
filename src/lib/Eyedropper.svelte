@@ -27,32 +27,32 @@
         }
     }
 </script>
-
-<div class="tab-container">
-    <div class="help-box">
-        <h2>Eye Dropper</h2>
-        <p>Use the eyedropper to pick any colour on screen, from the image or elsewhere in the browser window!</p>
-    </div>
-
-    <button class="eyedrop-btn" onclick={openEyedropper}>
-        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColour" stroke-width="2" fill="none">
-            <path d="M11 4l9 9-3 3-9-9 3-3zM3 21l3.5-3.5M15 8l2 2" />
-        </svg>
-        Activate Eyedropper
-    </button>
-
-    {#if errorMessage}
-        <div class="error-msg">
-            {errorMessage}
+<main>
+    <div class="tab-container">
+        <div class="help-box">
+            <h2>Eye Dropper</h2>
+            <p>Use the eyedropper to pick any colour on screen, from the image or elsewhere in the browser window!</p>
         </div>
-    {/if}
 
-    <div class="preview">
-        <div class="swatch" style:background-color={colour}></div>
-        <span class="hex-value">{colour}</span>
+        <button class="eyedrop-btn" onclick={openEyedropper}>
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColour" stroke-width="2" fill="none">
+                <path d="M11 4l9 9-3 3-9-9 3-3zM3 21l3.5-3.5M15 8l2 2" />
+            </svg>
+            Activate Eyedropper
+        </button>
+
+        {#if errorMessage}
+            <div class="error-msg">
+                {errorMessage}
+            </div>
+        {/if}
+
+        <div class="preview">
+            <div class="swatch" style:background-color={colour}></div>
+            <span class="hex-value">{colour}</span>
+        </div>
     </div>
-</div>
-
+</main>
 <!-- Eyedropper Styling -->
 
 <style>

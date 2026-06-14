@@ -3,6 +3,7 @@
   let message: string = "PixelPicker is Ready";
   import ColourPicker from "./lib/ColourPicker.svelte";
   import Eyedropper from "./lib/EyeDropper.svelte";
+  import HexCodes from "./lib/HexCodes.svelte";
 </script>
 
 <main>
@@ -36,7 +37,7 @@
     <div class="grid">
       <article class="picker">
         <ColourPicker />
-        <!-- <Eyedropper /> -->
+        <HexCodes />
       </article>
       <article class="image">Image</article>
     </div>
